@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-func string_equal(first string, second string) bool {
+func stringEqual(first string, second string) bool {
 	if len(first) != len(second) {
 		return false
 	}
@@ -16,7 +16,7 @@ func string_equal(first string, second string) bool {
 func main () {
 	first := "HELLO world"
 	second := "HELLO world"
-	res := string_equal(first, second)
+	res := stringEqual(first, second)
 	fmt.Println("Result:",res)
 	fmt.Println("audi" == "bmw")
 }

@@ -1,7 +1,7 @@
 package main 
 import "fmt"
 
-func insertion_sort(array []int ) {
+func insertionSort(array []int ) {
 	var i int = 1
 	var ln = len(array)
 
@@ -19,7 +19,7 @@ func insertion_sort(array []int ) {
 
 func main() {
     A := []int{5, 2, 9, 1, 5, 6}
-    insertion_sort(A)
+    insertionSort(A)
     fmt.Println("Sorted array:", A)
 }
 
